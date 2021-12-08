@@ -69,5 +69,5 @@ def write_prompts_and_completions_to_csv(character):
     out_validation_file.close()
 
 
-write_prompts_and_completions_to_csv("Ted")
+# write_prompts_and_completions_to_csv("Ted")
 

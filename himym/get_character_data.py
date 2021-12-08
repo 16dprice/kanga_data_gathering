@@ -40,4 +40,4 @@ def generate_character_speech_file(character_name):
         speech_file.write("{}\n".format(line.rstrip()))
 
 
-generate_character_speech_file("Claire")
+# generate_character_speech_file("Robin")

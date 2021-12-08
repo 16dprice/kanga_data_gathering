@@ -1,0 +1,1 @@
+This is the same data as in the folder `initial_training_data` except that there is an 80/20 split of the data between training and validation. No prompts are given with this data, only completions.

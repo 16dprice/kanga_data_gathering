@@ -23,11 +23,11 @@ class Replacer:
         return None
 
 
-with open("random_names.txt", "r") as names_file:
-    character_lines = open("himym/character_speech/Robin-4007", "r").readlines()
-    himym_names = ["Barney", "Lily", "Marshall", "Ted"]
-    random_names = names_file.read().splitlines()
-
-    new_lines = Replacer.replace_tokens(character_lines, himym_names, random_names)
-    GPT3CsvConverter.write_to_train_and_validation_sets(new_lines, "robin_personality")
+# with open("random_names.txt", "r") as names_file:
+#     character_lines = open("himym/character_speech/Robin-4007", "r").readlines()
+#     himym_names = ["Barney", "Lily", "Marshall", "Ted"]
+#     random_names = names_file.read().splitlines()
+#
+#     new_lines = Replacer.replace_tokens(character_lines, himym_names, random_names)
+#     GPT3CsvConverter.write_to_train_and_validation_sets(new_lines, "robin_personality")
 

@@ -1,6 +1,3 @@
-import openai
-
-
 # To prepare data and send to a .jsonl file that is formatted properly
 # openai tools fine_tunes.prepare_data -f <filename>
 
